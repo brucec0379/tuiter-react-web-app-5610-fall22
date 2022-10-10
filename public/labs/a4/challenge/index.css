@@ -1,0 +1,148 @@
+.wd-tw-button {
+    border-radius: 24px;
+}
+
+.wd-fl-button {
+    border-radius: 19px;
+}
+
+.wd-logo {
+    border-radius: 50%;
+}
+
+.wd-search {
+    position: relative;
+}
+
+.wd-search input {
+    font-size: 20px;
+    padding-left: 60px;
+    border-radius: 22px;
+    background: #444 !important;
+    border: none;
+    outline: none;
+    color: grey;
+}
+
+.wd-search .fa {
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    font-size: 24px;
+    color: grey;
+}
+
+.wd-settings {
+    font-size: 35px;
+    color: white;
+}
+
+.wd-banner {
+    width: 100%;
+}
+
+.wd-banner-text {
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.wd-nowrap {
+    white-space: nowrap;
+}
+
+.wd-logo-round {
+    border-radius: 10px;
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+.list-group-item {
+    background: black;
+    color: rgb(110, 118, 125);
+    outline: none;
+    border: none;
+    padding: 15px 10px;
+}
+
+.list-group-item.active {
+    font-weight: bold;
+    background: black;
+}
+
+.list-group-item .fa {
+    font-size: 23px;
+    margin-right: 5px;
+}
+
+.nav-link {
+    color: rgb(110, 118, 125) !important;
+    font-weight: bold;
+    padding: 20px 15px;
+    border: none !important;
+}
+
+.nav-link.active {
+    background-color: transparent !important;
+    border: none;
+    color: white !important;
+    position: relative;
+}
+
+.nav-link.active:after {
+    display: block;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    right: 20px;
+    height: 3px;
+    background: rgb(29, 161, 242);
+}
+
+.nav-tabs {
+    border: none;
+    border-bottom: 1px solid rgb(110, 118, 125);
+    display: flex;
+    margin-right: 15px;
+}
+
+.nav-tabs .nav-item {
+    flex: 1;
+    text-align: center;
+}
+
+.wd-main {
+    border-left: 1px solid rgb(110, 118, 125);
+    border-right: 1px solid rgb(110, 118, 125);
+}
+
+.my-1 {
+    color: lightgrey;
+    font-size: 20px;
+}
+
+.wd-follow-box {
+    background-color: grey;
+    border-radius: 15px;
+}
+
+.wd-follow-box .list-group-item {
+    background-color: #1a1a1a;
+    border-color: transparent !important;
+}
+
+.wd-hl {
+    color: lightgrey;
+}
+
+.wd-fl-button {
+    background-color: lightgrey !important;
+    color: black !important;
+}
