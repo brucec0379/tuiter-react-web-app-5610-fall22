@@ -1,0 +1,74 @@
+.wd-tw-button {
+    border-radius: 24px;
+}
+
+.wd-fl-button {
+    border-radius: 19px;
+}
+
+.wd-logo {
+    border-radius: 50%;
+}
+
+.wd-search {
+    position: relative;
+}
+
+.wd-search input {
+    font-size: 20px;
+    padding-left: 60px;
+    border-radius: 22px;
+    border: none;
+    outline: none;
+}
+
+.wd-search .fa {
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    font-size: 24px;
+    color: grey;
+}
+
+.wd-settings {
+    font-size: 35px;
+    color: #2a9fd6 !important;
+}
+
+.wd-banner {
+    width: 100%;
+}
+
+.wd-banner-text {
+    color: #333;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.wd-nowrap {
+    white-space: nowrap;
+}
+
+.wd-logo-round {
+    border-radius: 10px;
+}
+
+.wd-logo-round.white {
+    background: white;
+}
+
+body {
+    background: black;
+}
+
+.list-group-item .fa {
+    font-size: 23px;
+    margin-right: 5px;
+}
+
+.list-group a {
+    color: white;
+}
