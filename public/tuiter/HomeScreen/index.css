@@ -47,7 +47,7 @@ body {
 }
 
 .wd-img {
-    border: 1px solid rgb(110, 118, 125);
+    border: 1px solid rgb(40, 40, 40);
     border-radius: 10px;
     overflow: hidden;
 }
@@ -55,7 +55,7 @@ body {
 .wd-img img {
     width: 100%;
     height: auto;
-    border-bottom: 1px solid rgb(110, 118, 125);
+    border-bottom: 1px solid rgb(40, 40, 40);
 }
 
 .wd-post-more {
