@@ -21,4 +21,5 @@ function Classes() {
    </div>
  )
 };
+
 export default Classes;
