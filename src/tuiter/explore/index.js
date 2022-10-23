@@ -23,7 +23,7 @@ bi-gear-fill fs-2 position-relative"></i>
         <li className="nav-item"><a href="#/" className="nav-link">News</a>
         </li>
       </ul>
-      <div className="position-relative mb-2"><img src="/images/starship.png" className="w-100"/>
+      <div className="position-relative mb-2"><img src="/images/starship.png" className="w-100" alt="starship"/>
         <h1 className="position-absolute wd-nudge-up text-white">
           SpaceX Starship</h1>
       </div>
