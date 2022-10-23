@@ -1,6 +1,6 @@
-import NavigationSidebar from '../ExploreScreen/NavigationSidebar/index.js';
-import PostSummaryList from '../ExploreScreen/PostSummaryList/index.js';
-import PostList from '../HomeScreen/PostList/index.js';
+import NavigationSidebar from '../NavigationSidebar/index.js';
+import PostSummaryList from '../PostSummaryList/index.js';
+import PostList from '../PostList/index.js';
 
 function exploreComponent () {
   $('#wd-home').append(`

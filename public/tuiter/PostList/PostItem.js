@@ -5,7 +5,7 @@ const PostItem = (post) => {
   } = post;
 
   return (`
-<li class="list-group-item d-flex text-white p-3 position-relative">
+<li class="list-group-item bg-black d-flex text-white p-3 position-relative">
     <i class="fa fa-ellipsis-h wd-post-more text-muted"></i>
   <img class="wd-avatar" src="${avatar}" alt="avatar">
   <div class="flex-grow-1 ms-2">
