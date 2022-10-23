@@ -2,7 +2,7 @@ import Classes from "./classes";
 import Styles from "./styles";
 import ConditionalOutput
   from "./conditional-output";
-import todo from "./todo";
+import Todo from "./todo/todo-list.js";
 
 function Assignment6() {
  return (
