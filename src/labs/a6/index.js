@@ -15,5 +15,4 @@ function Assignment6() {
    </div>
  );
 }
-
 export default Assignment6;
