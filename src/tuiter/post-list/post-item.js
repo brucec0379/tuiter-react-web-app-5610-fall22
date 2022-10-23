@@ -22,7 +22,7 @@ const PostItem = ({
       <div className="flex-grow-1 ms-2">
         <div><b>{userName}</b> <i className="bi bi-patch-check-fill"></i><span
           className="text-muted">@{handle} - {time}</span></div>
-        <div className="wd-content mb-2">{title}</div>
+        <div className="wd-content mb-2" dangerouslySetInnerHTML={{ __html: title }}></div>
         <div className="wd-img">
           <img src={image} alt="thumb"/>
           <div className={`px-2 my-1 ${!imageTitle ? 'd-none' : ''}`}>{imageTitle}</div>

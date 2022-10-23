@@ -18,7 +18,7 @@ const data = [
     userName: 'New York Post',
     handle: 'nypost',
     time: '23h',
-    title: 'Grimes seen reading karl Marx following split with world\'s richest man Elon Musk <a href="#/">trib.al/nx2Gfaq</a>',
+    title: 'Grimes seen reading karl Marx following split with world\'s richest man Elon Musk <a href="#">trib.al/nx2Gfaq</a>',
     image: '../../images/img_3.png',
     comments: '965',
     tweets: '2.4K',
