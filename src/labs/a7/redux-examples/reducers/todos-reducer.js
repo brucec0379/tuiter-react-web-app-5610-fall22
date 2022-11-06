@@ -14,7 +14,7 @@ const initialTodos = [
 const todosSlice = createSlice({
  name: 'todos',
  initialState: initialTodos,
-  reducers: {
+ reducers: {
     addTodo(state, action) {
       state.push({
         _id: (new Date()).getTime(),
@@ -26,14 +26,14 @@ const todosSlice = createSlice({
        const index = action.payload
        state.splice(index, 1)
      },
-     todoDoneToggle(state, action) {
-          const todo = state.find((todo) =>
-                todo._id === action.payload._id)
-          todo.done = !todo.done
-        }
+    todoDoneToggle(state, action) {
+         const todo = state.find((todo) =>
+               todo._id === action.payload._id)
+         todo.done = !todo.done
+       }
   }
 
 });
 
-export const {addTodo, deleteTodo, todoDoneToggle} = todosSlice.actions
+export const {addTodo,deleteTodo,todoDoneToggle} = todosSlice.actions
 export default todosSlice.reducer
