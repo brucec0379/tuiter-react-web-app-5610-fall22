@@ -1,16 +1,16 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const currentUser = {
-  firstName: 'Jose',
-  lastName: 'Annunziato',
-  handle: '@jannunzi',
+  firstName: 'Chenghai',
+  lastName: 'Cao',
+  handle: '@Cc',
   profilePicture: 'spacex.png',
   bannerPicture: 'img.png',
-  bio: 'Faculty, Software Engineer, AI, Space, and renewable enthusiast. Retuits and likes are not endorsements.',
-  website: 'youtube.com/webdevtv',
+  bio: 'Student in Northeastern in Computer Science.',
+  website: 'https://github.com/brucec0379/',
   location: 'Boston, MA',
-  dateOfBirth: '7/7/1968',
-  dateJoined: '4/2009',
+  dateOfBirth: '3/11/1907',
+  dateJoined: '2/2019',
   followingCount: 340,
   followersCount: 223
 };
