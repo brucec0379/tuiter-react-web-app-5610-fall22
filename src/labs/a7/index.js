@@ -6,7 +6,7 @@ const Assignment7 = () => {
    <div>
      <h1>Assignment 7</h1>
      <ReduxExamples/>
-   <div/>
+   </div>
  );
 };
 export default Assignment7;
