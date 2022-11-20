@@ -1,6 +1,7 @@
 import React, {useEffect} from "react";
-import {useDispatch, useSelector} from "react-redux";
-import TuitItem from './tuit-item';
+import {useDispatch, useSelector}
+  from "react-redux";
+import TuitItem from "./tuit-item";
 import {findTuitsThunk}
   from "../../services/tuits-thunks";
 
@@ -18,8 +19,11 @@ const TuitList = () => {
            Loading...
          </li>
        }
-   {postsArray.map((v, i) => <TuitItem key={i} {...v}/>)}
-  </ul>);
+   {
+      tuits.map(tuit => <TuitListItem key={tuit._id} tuit={tuit} />)
+   }
+  </ul>
+  );
 };
 
 export default TuitList;
