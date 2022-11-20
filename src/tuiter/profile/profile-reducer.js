@@ -30,5 +30,6 @@ const profileSlice = createSlice({
   }
 });
 
+
 export const { updateUser } = profileSlice.actions;
 export default profileSlice.reducer;

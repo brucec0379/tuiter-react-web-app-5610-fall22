@@ -1,11 +1,25 @@
+import React, {useEffect} from "react";
+import {useDispatch, useSelector}
 import TuitItem from './tuit-item';
 import { useSelector } from 'react-redux';
+import {findTuitsThunk}
+  from "../../services/tuits-thunks";
+
 
 const TuitList = () => {
-  const postsArray = useSelector(state => state.tuits);
-
+  const {tuits, loading} = useSelector(state => state.tuitsData);
+  const dispatch = useDispatch();
+   useEffect(() => {
+     dispatch(findTuitsThunk())
+   }, [])
   return (<ul className="list-group">
-    {postsArray.map((v, i) => <TuitItem key={i} {...v}/>)}
+  {
+         loading &&
+         <li className="list-group-item">
+           Loading...
+         </li>
+       }
+   {postsArray.map((v, i) => <TuitItem key={i} {...v}/>)}
   </ul>);
 };
 
