@@ -19,9 +19,10 @@ const TuitList = () => {
            Loading...
          </li>
        }
-   {
-      tuits.map(tuit => <TuitListItem key={tuit._id} tuit={tuit} />)
-   }
+  {
+         tuits.map(tuit => <TuitItem
+                        key={tuit._id} tuit={tuit}/> )
+        }
   </ul>
   );
 };
