@@ -18,7 +18,7 @@ const PostItem = ({
   return (
     <li className="list-group-item d-flex p-3 position-relative">
       <i className="bi bi-three-dots wd-post-more text-muted"></i>
-      <img className="wd-avatar" src={rs.png} alt="avatar"/>
+      <img className="wd-avatar" src= "./rs.png" alt="avatar"/>
       <div className="flex-grow-1 ms-2">
         <div><b>{userName}</b> <i className="bi bi-patch-check-fill"></i><span
           className="text-muted">@{handle} - {time}</span></div>
