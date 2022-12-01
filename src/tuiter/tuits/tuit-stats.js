@@ -9,7 +9,9 @@ const TuitStats = (props) => {
       <span><i className="bi bi-chat"></i> <span>{props.replies}</span></span>
       <span><i className="bi bi-repeat"></i> <span>{props.retuits}</span></span>
         <span><i className={`bi bi-heart-fill ${props.liked ? 'text-danger' : ''}`}></i> <span>{props.likes}</span></span>
-        <span>Likes: {props.likes}</span><span><i className="bi bi-heart-fill me-2 text-danger" onClick={() => dispatch(updateTuitThunk({...props, }))}></i>
+        <span>Likes: {props.likes}</span><span><i className="bi bi-heart-fill me-2 text-danger" onClick={() => dispatch(updateTuitThunk({_id: props._id,
+          liked: !props.liked,
+          likes: props.liked ? props.likes - 1 : props.likes + 1 }))}></i>
         </span>
       <span><i className="bi bi-share"></i></span>
     </div>
